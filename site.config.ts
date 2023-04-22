@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'YesYouKen\'s NetNest',
+  name: 'YesYouKen\'s MetaNest',
   domain: 'www.yesyouken.space',
   author: 'Kenneth Tan',
 
   // open graph metadata (optional)
-  description: 'YesYouKen\'s NetNest',
+  description: 'YesYouKen\'s MetaNest',
 
   // social usernames (optional)
   twitter: '0xYesYouKen',
