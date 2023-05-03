@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'YesYouKen\'s MetaNest',
-  domain: 'www.yesyouken.space',
+  domain: 'yesyouken.space',
   author: 'Kenneth Tan',
 
   // open graph metadata (optional)
