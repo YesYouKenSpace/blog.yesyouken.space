@@ -1,3 +1,4 @@
+import { Repo } from '@giscus/react';
 import * as types from './types'
 
 export interface SiteConfig {
@@ -17,6 +18,11 @@ export interface SiteConfig {
   youtube?: string
   zhihu?: string
   mastodon?: string;
+
+  giscusRepo?: Repo
+  giscusRepoId?: string
+  giscusCategory?: string
+  giscusCategoryId?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null

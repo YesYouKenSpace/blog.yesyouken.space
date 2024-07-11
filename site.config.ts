@@ -61,5 +61,11 @@ export default siteConfig({
     //   title: 'Contact',
     //   pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
     // }
-  ]
+  ],
+
+    // uncomment gisucs config to enable gisucs, get these keys from https://giscus.app/
+  giscusRepo: 'kennethtxytqw/yesyouken.space-comments',
+  giscusRepoId: 'R_kgDOMVCSIw"',
+  giscusCategory: 'Announcements',
+  giscusCategoryId: 'DIC_kwDOMVCSI84CguYR'
 })

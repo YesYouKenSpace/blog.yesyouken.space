@@ -25,6 +25,7 @@ import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
+import { PageFooter } from './PageFooter'
 import { PageHead } from './PageHead'
 import styles from './styles.module.css'
 
@@ -215,6 +216,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
     [block, recordMap, isBlogPost]
   )
 
+  const pageFooter = React.useMemo(
+    () => <PageFooter isBlogPost={isBlogPost} />,
+    [isBlogPost]
+  )
   const footer = React.useMemo(() => <Footer />, [])
 
   if (router.isFallback) {
@@ -267,10 +272,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
         image={socialImage}
         url={canonicalPageUrl}
       />
-
       {isLiteMode && <BodyClassName className='notion-lite' />}
       {isDarkMode && <BodyClassName className='dark-mode' />}
-
       <NotionRenderer
         bodyClassName={cs(
           styles.notion,
@@ -293,9 +296,9 @@ export const NotionPage: React.FC<types.PageProps> = ({
         mapImageUrl={mapImageUrl}
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         pageAside={pageAside}
+        pageFooter={pageFooter}
         footer={footer}
       />
-
       <GitHubShareButton />
     </>
   )
