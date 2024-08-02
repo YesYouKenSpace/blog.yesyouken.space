@@ -170,21 +170,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
     []
   )
 
-  // const components = () => ({
-  //   nextImage: Image,
-  //   nextLink: Link,
-  //   Code,
-  //   Collection,
-  //   Equation,
-  //   Pdf,
-  //   Modal,
-  //   Tweet,
-  //   Header: NotionPageHeader,
-  //   propertyLastEditedTimeValue,
-  //   propertyTextValue,
-  //   propertyDateValue
-  // })
-
   // lite mode is for oembed
   const isLiteMode = lite === 'true'
 

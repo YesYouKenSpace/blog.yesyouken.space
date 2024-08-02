@@ -57,10 +57,10 @@ export default siteConfig({
       title: 'About Me',
       pageId: 'About-Me-cc295a10999a45679f15f137e1665491?pvs=4'
     },
-    // {
-    //   title: 'Contact',
-    //   pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-    // }
+    {
+      title: 'Apps',
+      pageId: 'Apps-94bc19c1d40b4b7686231fd4db838429?pvs=4'
+    }
   ],
 
     // uncomment gisucs config to enable gisucs, get these keys from https://giscus.app/
