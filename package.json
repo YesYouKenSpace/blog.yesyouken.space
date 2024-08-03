@@ -51,8 +51,7 @@
     "react-notion-x": "^6.16.0",
     "react-tweet-embed": "^2.0.0",
     "react-use": "^17.4.2",
-    "rss": "^1.2.2",
-    "sharp": "^0.33.4"
+    "rss": "^1.2.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.3.1",
