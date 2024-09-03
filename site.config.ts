@@ -65,7 +65,7 @@ export default siteConfig({
 
     // uncomment gisucs config to enable gisucs, get these keys from https://giscus.app/
   giscusRepo: 'kennethtxytqw/yesyouken.space-comments',
-  giscusRepoId: 'R_kgDOMVCSIw"',
+  giscusRepoId: 'R_kgDOMVCSIw',
   giscusCategory: 'Announcements',
   giscusCategoryId: 'DIC_kwDOMVCSI84CguYR'
 })
