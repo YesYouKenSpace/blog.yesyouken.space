@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: '0xYesYouKen',
-  github: 'kennethtxytqw',
+  github: 'yesyoukenspace',
   linkedin: 'kennethtxytqw',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
