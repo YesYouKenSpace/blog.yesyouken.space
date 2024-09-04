@@ -6,7 +6,7 @@ export default siteConfig({
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: '73ac661a-e2d7-4aee-ba02-ceda0414340f',
 
   // basic site info (required)
   name: 'YesYouKen\'s MetaNest',
